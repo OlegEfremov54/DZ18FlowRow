@@ -115,7 +115,7 @@ fun EmployeeItem(employee: Employee) {
             fontSize = 14.sp,
             modifier = Modifier
                 .padding(1.dp, 3.dp))
-        Text(text = "Зарплата: ${employee.salary} $ в год",
+        Text(text = "Зарплата: ${employee.salary} рублей в месяц",
             fontSize = 14.sp,
             modifier = Modifier
                 .padding(1.dp, 3.dp))
